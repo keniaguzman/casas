@@ -1,0 +1,181 @@
+/*http://preview.themeforest.net/item/hemma-a-wordpress-theme-for-holiday-houses/full_screen_preview/15924438?_ga=2.78848658.764534915.1600267816-2041190178.1600267752*/
+#principal {
+  background-image: url('http://themes.opendept.net/hemma-elegant/wp-content/uploads/2016/04/house.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+.blanco {
+  color: #fff;
+}
+.centrar {
+  text-align: center;
+}
+.largo-completo {
+  width: 100%;
+  position: absolute;
+}
+h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 4em;
+}
+h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 2em;;
+}
+#filtro {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(75,101,109,0.350)
+}
+#color-div{
+  background-color: #BCD5F3;
+}
+.largo-mitad {
+  width: 50%;
+  height: 50%;
+}
+.medidas{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3em;
+}
+h5 {
+  font-family: 'Playball', cursive;
+  font-size: 2em;
+  margin-top: -36px;
+  margin-bottom: 14px;
+}
+.style-button{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5em;
+  color: #fff;
+  background-color:#16B04C;
+  width: 45%;
+  height: 20%;
+}
+.alinidado-izquierda{
+  text-align: left;
+}
+.alinidado-derecha{
+  text-align: right;
+}
+#segunda-imagen{
+  background-image: url('http://themes.opendept.net/hemma-elegant/wp-content/uploads/2016/04/workshopapd-02.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#tercer-imagen{
+  background-image: url('https://image.freepik.com/foto-gratis/interrior-plano-vacio-elementos-decoracion_1303-23909.jpg');
+  background-position: center;
+  background-size: cover;
+}
+ p{
+  font-family: 'Noto Serif', serif;
+  font-size: 1em;
+  width: 71%;
+ }
+ #cuarta-imagen{
+  background-image: url('https://image.freepik.com/foto-gratis/fruta-bosque-pastel-cafe_23-2148654537.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#quinta-imagen{
+  background-image: url('https://image.freepik.com/foto-gratis/escaleras-piscina_1388-31.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.largo-cuartos {
+  width: 25%;
+  height: 90%;
+}
+#quintasesscion-imagenuno {
+  background-image: url('https://image.freepik.com/foto-gratis/arquitectura-moderna-apartamentos_1268-14696.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#quintasesscion-imagendos{
+  background-image: url('https://image.freepik.com/foto-gratis/hermosa-casa-moderna-cemento-vista-jardin_1127-3209.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#quintasesscion-imagentres{
+  background-image: url('https://image.freepik.com/foto-gratis/comoda-almohada-sofa-decoracion-balcon-al-aire-libre_74190-2419.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#style-button-Parte5{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5em;
+  color: #000000;
+  background-color:#fff;
+  width: 45%;
+  height: 20%;
+}
+#sexta-imaen{
+  background-image: url('https://image.freepik.com/foto-gratis/hermoso-lago-reflejo-acantilado-muchos-arboles-costa_181624-13312.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#ubicacion-mapa{
+  background-image: url('https://www.google.com.mx/maps/place/Cuernavaca+Plus+Bienes+Raices/@18.8605697,-99.2213917,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdd8d81303893b:0x610bb36bb9004216!8m2!3d18.8605646!4d-99.219203');
+  background-position: center;
+  background-size: cover;
+}
+#decimasecion-imagenuno {
+  background-image: url('https://image.freepik.com/foto-gratis/disparo-interior-casa-moderna-comedor-arte-pared_181624-1556.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+#decimasecion-imagendos {
+  background-image: url('https://image.freepik.com/foto-gratis/comoda-almohada-sofa_74190-10005.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#decimasecion-imagentres {
+  background-image: url('https://image.freepik.com/foto-gratis/hermosa-foto-casa-moderna-cocina-comedor_181624-2870.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#decimasecion-imagencuatro {
+  background-image: url('https://image.freepik.com/foto-gratis/disparo-interior-lujosa-casa-comedor_181624-10412.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.filtro-imagenes {
+  font-family: 'Noto Serif', serif;
+  color:  rgba(75,101,109,0);
+  width: 24%;
+  height: 90%;
+  position: absolute;
+  background-color: rgba(75,101,109,0);
+}
+.filtro-imagenes:hover {
+  width: 24%;
+  height: 90%;
+  color: #fff;
+  position: absolute;
+  background-color: rgba(75,101,109,0.350);
+}
+.centrado-vertical{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
