@@ -4,8 +4,8 @@
   height: 100%;
   background-position: center;
   background-size: cover;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
   display: flex;
   align-items: center;
 }
@@ -22,12 +22,16 @@ html {
 .largo-completo {
   width: 100%;
   position: absolute;
+  width: calc(100% - 100px);
+
 }
 h1 {
+  width: calc(100% - 100px);
   font-family: 'Noto Serif', serif;
   font-size: 4em;
 }
 h3 {
+  width: calc(100% - 100px);
   font-family: 'Lobster', cursive;
   font-size: 2em;;
 }
@@ -35,39 +39,47 @@ h3 {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: rgba(75,101,109,0.350)
+  background-color: rgba(75,101,109,0.350);
+  width: calc(100% - 100px);
+
 }
 #color-div{
   background-color: #BCD5F3;
 }
 .largo-mitad {
+
   width: 50%;
   height: 50%;
 }
 .medidas{
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   align-items: center;
   margin-left: 20px;
+  width: calc(100% - 100px);
+  margin-top: -25px;
 }
 h2 {
   font-family: 'Noto Serif', serif;
   font-size: 3em;
 }
 h5 {
-  font-family: 'Playball', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 2em;
   margin-top: -36px;
   margin-bottom: 14px;
+  color: rgba(51,51,51,0.6);
+
 }
 .style-button{
-  font-family: 'Noto Serif', serif;
-  font-size: 1.5em;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.2em;
   color: #fff;
-  background-color:#16B04C;
-  width: 45%;
-  height: 20%;
+  background-color:#55a75a;
+  border-color: transparent;
+  width: 210px;
+  height: 63px;
 }
 .alinidado-izquierda{
   text-align: left;
@@ -86,8 +98,8 @@ h5 {
   background-size: cover;
 }
  p{
-  font-family: 'Noto Serif', serif;
-  font-size: 1em;
+  font-family: 'Assistant', sans-serif;
+    font-size: 1em;
   width: 71%;
  }
  #cuarta-imagen{
@@ -102,7 +114,16 @@ h5 {
 }
 .largo-cuartos {
   width: 25%;
-  height: 90%;
+  height: 50%;
+}
+.medidas-cuartos{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: calc(100% - 100px);
+  margin-top: -72px;
 }
 #quintasesscion-imagenuno {
   background-image: url('https://image.freepik.com/foto-gratis/arquitectura-moderna-apartamentos_1268-14696.jpg');
@@ -122,8 +143,6 @@ h5 {
 #style-button-Parte5{
   font-family: 'Noto Serif', serif;
   font-size: 1.5em;
-  color: #000000;
-  background-color:#fff;
   width: 45%;
   height: 20%;
 }
@@ -179,3 +198,14 @@ h5 {
   align-content: center;
   flex-direction: column;
 }
+
+/* mouse over link */
+button:hover {
+  background-color: hsl(122, 78%, 31%);
+}
+
+/* selected link */
+button:active {
+  background-color: #2b9b2f;
+}
+
